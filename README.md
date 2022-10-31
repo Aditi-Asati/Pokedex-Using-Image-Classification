@@ -16,8 +16,9 @@ You can alternatively download the repository as a zip file using the GitHub **D
 *External modules used-*
 - numpy 
 - opencv-python
-- sklearn
 - pandas
+- Rich
+- Scikit-learn
 
 Run the command ```pip install -r requirements.txt``` to install all these dependencies at once.
 
