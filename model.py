@@ -14,6 +14,10 @@ class Model:
         self.all_names = []
         self.y_train = []
 
+        self.create_features()
+        self.create_labels()
+        self.train_model()
+
     def create_features(self):
         """
         Creates features for the training data from the pokemon images 
@@ -57,8 +61,8 @@ class Model:
         """
         Training the Random Forest Classifier model
         """
-        model=RandomForestClassifier(n_estimators = 4, n_jobs=-1)
-        model.fit(self.x_train,self.y_train)
+        self.model = RandomForestClassifier(n_estimators = 4, n_jobs=-1)
+        self.model.fit(self.x_train, self.y_train)
 
 
 
