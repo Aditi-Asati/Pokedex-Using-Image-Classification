@@ -1,4 +1,4 @@
-# GEN 1 Pokedex Using Image Classification
+# Pokedex Using Image Classification
 
 # Installation
 ## Using Git
