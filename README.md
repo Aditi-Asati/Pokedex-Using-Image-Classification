@@ -1,12 +1,14 @@
 # Pokedex Using Image Classification
-
+As self-explanatory as the title sounds, its a pokedex which tells the information about the pokemon just by looking at its image.
+## Guidelines
+All you have to do is enter the full path of the image file when asked for it on the command line and wait for the pokedex to show up! 
 # Installation
 ## Using Git
 Type the following command in your Git Bash:
 
 - For SSH:
-```git clone git@github.com:Aditi-Asati/Gen-1-Pokedex.git```
-- For HTTPS: ```git clone https://github.com/Aditi-Asati/Gen-1-Pokedex.git```
+```git@github.com:Aditi-Asati/Pokedex-Using-Image-Classification.git```
+- For HTTPS: ```https://github.com/Aditi-Asati/Pokedex-Using-Image-Classification.git```
 
 The whole repository would be cloned in the directory you opened the Git Bash in.
 
